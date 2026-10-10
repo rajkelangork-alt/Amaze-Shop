@@ -16,7 +16,7 @@ export const CategoryPage: FC<CategoryPageProps> = ({ category, onBack, onSelect
 
   const handleQuickAdd = async (e: React.MouseEvent, item: ShowcaseItem) => {
     e.stopPropagation();
-    addItem(item, 'Standard Edition', item.price, 1);
+    addItem(item, 'Standard Edition', 1);
     setAddedId(item.id);
     setTimeout(() => setAddedId(null), 1800);
   };

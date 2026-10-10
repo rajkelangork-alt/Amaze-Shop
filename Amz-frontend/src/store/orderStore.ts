@@ -1,8 +1,8 @@
 import { create } from 'zustand';
-import { CartItemEntry } from '@/store/cartStore';
+import type { CartItem } from '@/store/cartStore';
 
 export interface OrderItemRecord {
-  item: CartItemEntry['item'];
+  item: CartItem['item'];
   quantity: number;
   editionName: string;
   price: number;
@@ -30,7 +30,7 @@ interface OrderState {
   createOrder: (orderData: {
     userEmail: string;
     customerName: string;
-    items: CartItemEntry[];
+    items: CartItem[];
     totalAmount: number;
     paymentMethod: string;
     shippingAddress: string;
