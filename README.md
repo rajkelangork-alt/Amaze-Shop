@@ -28,11 +28,11 @@
 
 ## 2. Key Features
 
-    - **Dedicated Schema Isolation:** Migrations and tables execute under an isolated PostgreSQL `amaze_shop` schema using session pooling over IPv4 (`aws-0-ap-northeast-1.pooler.supabase.com:5432`).
-    - **Multi-Persona RBAC:** Distinct authorization layers enforcing specific privilege barriers for Customers, Store Vendors, and Platform Admins.
-    - **Universal Asset Normalization Resolver:** Built-in glob asset mapping in `AdCard.tsx` resolving `.jpeg` fallbacks across environments to eliminate broken images.
-    - **Reactive Zustand Cart & Order Engine:** Independent client stores (`cartStore.ts`, `orderStore.ts`, `authStore.ts`) manage shopping carts, quantity transitions, and order ledgers with zero redundant re-renders.
-    - **Transactional DDL Versioning:** Fully automated Alembic schema versioning coupled with repeatable persona seeding (`seed_users.py`).
+- **Dedicated Schema Isolation:** Migrations and tables execute under an isolated PostgreSQL `amaze_shop` schema using session pooling over IPv4 (`aws-0-ap-northeast-1.pooler.supabase.com:5432`).
+- **Multi-Persona RBAC:** Distinct authorization layers enforcing specific privilege barriers for Customers, Store Vendors, and Platform Admins.
+- **Universal Asset Normalization Resolver:** Built-in glob asset mapping in `AdCard.tsx` resolving `.jpeg` fallbacks across environments to eliminate broken images.
+- **Reactive Zustand Cart & Order Engine:** Independent client stores (`cartStore.ts`, `orderStore.ts`, `authStore.ts`) manage shopping carts, quantity transitions, and order ledgers with zero redundant re-renders.
+- **Transactional DDL Versioning:** Fully automated Alembic schema versioning coupled with repeatable persona seeding (`seed_users.py`).
 
 ## 3. Architecture
 
