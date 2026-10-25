@@ -49,6 +49,7 @@ def run_migrations_online() -> None:
     if sync_url.startswith("postgres://"):
         sync_url = sync_url.replace("postgres://", "postgresql://", 1)
 
+
     connectable = create_engine(
         sync_url,
         poolclass=pool.NullPool,
