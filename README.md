@@ -12,13 +12,13 @@
 
 ### Demo logins
 
-| Role          | Email                     | Password        | Access                                                          |
-|               |                           |                 |                                                                 |
-| Platform Admin| `admin@amzshop.com`       | `Admin@12345`   | Global catalog governance, vendor auditing, user administration |
-| Store Vendor  | `vendor.apex@amzshop.com` | `Vendor@12345`  | Product edition management, stock inventory, vendor orders      |
-| Customer      | `customer3@amzshop.com`   | `Customer@12345`| Storefront browsing, cart checkout, active order tracking       |
+| Role | Email | Password | Access |
+| :--- | :--- | :--- | :--- |
+| Platform Admin | `admin@amzshop.com` | `Admin@12345` | Global catalog governance, vendor auditing, user administration |
+| Store Vendor | `vendor.apex@amzshop.com` | `Vendor@12345` | Product edition management, stock inventory, vendor orders |
+| Customer | `customer3@amzshop.com` | `Customer@12345` | Storefront browsing, cart checkout, active order tracking |
 
-
+---
 
 ## 1. Problem & Solution
 
